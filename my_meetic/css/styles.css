@@ -1,0 +1,49 @@
+.jumbotron {
+    
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    min-height: 720px;
+    margin-bottom: 0px !important;
+}
+
+  .container.index {
+      border-radius: 1%;
+    background-color: rgba(279, 174, 228, 0.2);
+    transition-duration: 0.5s;
+
+  }
+
+  .container.index:hover {
+    background-color: rgba(279, 174, 228, 0);
+  }
+
+  .inscription_bg {
+    background-image: url("../images/inscription_bg.jpg");
+    background-size: cover;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+  .inscription_cont {
+    
+  }
+  body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+    background-color: rgba(279, 174, 228, 0.2);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
